@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Website</title>
+    
+    <!-- CSS in de <style> tag -->
+    <style>
+        /* Reset de marges en padding van alle elementen */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basisstijl voor de body */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Stijl voor de header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        /* Navigatie-stijlen */
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Hero sectie met achtergrondafbeelding */
+        #hero {
+            background: url('dj-image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        #hero h1 {
+            font-size: 50px;
+        }
+
+        /* Stijl voor de secties */
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        /* Footer stijl */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to DJ [DJ Name]'s Website</h1>
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <p>[DJ Bio]</p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>For bookings or inquiries, reach out to me:</p>
+        <p>Email: [DJ Email]</p>
+        <p>Phone: [DJ Phone]</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DJ [DJ Name]. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript in de <script> tag -->
+    <script>
+        // Voeg hier je JavaScript-code toe
+        console.log("JavaScript werkt!");
+    </script>
+</body>
+</html>
